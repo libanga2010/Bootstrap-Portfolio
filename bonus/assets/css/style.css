@@ -1,0 +1,799 @@
+
+
+
+/*general*/
+
+.navBar{
+  background-color: white;
+  width: 100%;
+  height: 87px;
+  float: left;
+  z-index: 0;
+  clear: both;
+
+}
+
+.containerHeader {
+  border-width: 2px;
+  border-color: #dddddd;
+  height: 87px;
+  width: 960px;
+  margin: auto;
+  position: relative;
+  z-index: 9000;
+  
+}
+.name{
+  background: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  float: left;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 28px 20px 27px 20px;
+
+}
+.about-tab, .portfolio-tab, .contact-tab{
+  text-decoration: none;
+  padding: 33px 10px 32px 10px;
+  position: relative;
+  float: right;
+  color: grey;
+  border-top: 3px solid transparent;
+  font-size: 1.2em;
+}
+
+.about-tab:hover, .portfolio-tab:hover, .contact-tab:hover {
+  opacity: 8;
+  position: relative;
+  border-top: 3px solid #3ffce0;
+}
+
+.border-navBar {
+  background: #666666;
+  width: 100%;
+  height: 1px;
+  float: left;
+  clear: both;
+}
+
+.main-section {
+  background-color: #80AAC1;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  float: left;
+  padding-bottom: 50px;
+  clear: both;
+}
+.container{
+  width: 960px;
+  margin: auto;
+}
+.aboutMeBox{
+  background: white;
+  width: 65%;
+  padding: 20px;
+  margin: 0px;
+  position: relative;
+  float: left;
+  top: 25px;
+  z-index: 9000;
+}
+.aboutMe{
+  color: #4aaaa5;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-color: #666666;
+  border-width: 2px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.profile-image{
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 20px;
+  padding-top: 20px;
+
+}
+.profile-image:hover{
+  border-radius: 50%;
+
+}
+.aboutMeBox p{
+  margin: 20px 0 5px;
+}
+.connectBox{
+  float: right;
+  width: 20%;
+  background: white;
+  padding: 20px 20px 30px 20px;
+  position: relative;
+  top: 25px;
+}
+.connectWithMe{
+  color: #4aaaa5;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-color: #666666;
+  border-width: 2px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+.connectSocialImages{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.gitDiv, .linkedinDiv, .stackoverflowDiv{
+  width: 33.33%;
+  float: left;
+}
+.gitDiv img, .linkedinDiv img, .stackoverflowDiv img{
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.social{
+  width: 50px;
+  height: 50px;
+  position: relative;
+
+
+}
+.social:hover{
+ background-color: #4aaaa5;
+
+
+}
+.footerBar{
+  background-color: #666666;
+  width: 100%;
+  height: 50px;
+  float: left;
+  border-top: 10px solid #4aaaa5;
+  clear: both;
+
+}
+.copyright{
+  width: 960px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 17px 0px 17px 0px;
+}
+
+/*
+================================================
+   Width adjustment for contact textarea.
+================================================
+*/
+.textarea980{
+   width: 100%;
+   height: 50%;
+}
+
+/*
+================================================
+    Submit button for Contant Page with
+              cursor changer.
+================================================
+*/
+.submit-button{
+  background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*
+================================================
+     End of Connect with Me container.
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+      Portfolio box container.
+================================================
+*/
+.portfolio-box{
+  background: white;
+  width: 65%;
+  padding: 20px;
+  margin: 0;
+  position: relative;
+  float: left;
+  top: 25px;
+  z-index: 9000;
+  overflow: auto;
+}
+
+.portfolio-box h1{
+  color: #4aaaa5;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-color: #666666;
+  border-width: 2px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.portfolio-box p{
+  margin: 15px 0 5px;
+}
+
+.portfolio-box img{
+  width: 250px;
+  height: 150px;
+}
+
+/*
+================================================
+     Adjusted portfolio images with
+      placement and transition.
+================================================
+*/
+.img1, .img3, .img5{
+  position: relative;
+  float: left;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.img2, .img4{
+  position: relative;
+  float: right;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.insideimg1{
+  width: 250px;
+  height: 150px;
+  top:10px;
+  left:25px;
+  float:left;
+  position: relative;
+}
+
+.insideimg2{
+  width: 250px;
+  height: 150px;
+  top:10px;
+  right:25px;
+  float: right;
+  position: relative;
+}
+
+.insideimg3{
+  width: 250px;
+  height: 150px;
+  margin-top: 40px;
+  top:10px;
+  left:25px;
+  float:left;
+  position: relative;
+}
+
+.insideimg4{
+  width: 250px;
+  height: 150px;
+  margin-top: 40px;
+  top:10px;
+  right:25px;
+  float:right;
+  position: relative;
+}
+
+.insideimg5{
+  width: 250px;
+  height: 150px;
+  margin-top: 40px;
+  top:10px;
+  left:25px;
+  float:left;
+  position: relative;
+}
+
+/*
+================================================
+  Content tags within the portoflio images.
+================================================
+*/
+
+.portfolio-p{
+  position: absolute;
+  background: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  opacity: .75;
+}
+
+.portfolio-p2{
+  position: absolute;
+  background: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  opacity: .75;
+}
+
+.portfolio-p3{
+  position: absolute;
+  background: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  opacity: .75;
+}
+
+.portfolio-p4{
+  position: absolute;
+  background: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  opacity: .75;
+}
+
+.portfolio-p5{
+  position: absolute;
+  background: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  opacity: .75;
+}
+
+/*
+================================================
+  Decrease portfolio brightness of image
+                upon hover
+================================================
+*/
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover{
+  -webkit-filter: brightness(85%);
+}
+
+/*
+================================================
+        End of Portfolio box container.
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+================================================
+
+      End of main midbar content.
+
+================================================
+================================================
+
+
+
+/*
+================================================
+================================================
+
+           Start of 980px.
+
+================================================
+================================================
+*/
+@media screen and (max-width:980px){
+  .navBar, .border-navBar, .main-section, .footerBar{
+    width: 100%;
+  }
+
+  .containerHeader, .container, .copyright{
+    width: 80%;
+  }
+
+  .aboutMeBox{
+    width: 50%;
+  }
+
+  .aboutMeBox p {
+    line-height: 200%;
+  }
+
+  .profile-image{
+    width:100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+
+  .connectBox{
+    width: 33%;
+  }
+
+  .connectSocialImages{
+    width:100%;
+    height:100%;
+    margin: auto;
+  }
+  
+.gitDiv, .linkedinDiv, .stackoverflowDiv{
+    width: 30%;
+    float: left;
+    height:60px;
+  }
+  .linkedinDiv{
+    
+    margin-left:10px;
+    margin-right:10px;
+    
+    }
+  .social{
+    margin-top:5px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+  }
+
+/*
+================================================
+     Contact textarea adjustment for 980px.
+================================================
+*/
+  .textarea980{
+   width: 100%;
+   height: 50%;
+  }
+
+/*
+================================================
+    Portfolio adjustments for 980px.
+================================================
+*/
+  .portfolio-box{
+    width:52%;
+  }
+
+  .portfolio-box img{
+    width: 100%;
+    height: 100%;
+  }
+/*
+  position: absolute;
+  background: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  opacity: .75;
+  */
+  .portfolio-p{
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+    height: 30px;
+  }
+  
+  .portfolio-box p{
+    /*margin: auto;*/
+  }
+
+  .img1{
+    position: relative;
+    float: left;
+    right: 25px;
+  }
+
+  .insideimg1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .portfolio-p2{
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+    height: 30px;
+  }
+
+  .img2{
+    position: relative;
+    float: right;
+    right: 25px;
+  }
+
+  .insideimg2{
+    width:100%;
+    height: 100%;
+    margin-top: 40px;
+    position: relative;
+    left: 25px;
+  }
+
+  .portfolio-p3{
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+    height: 30px;
+  }
+
+  .img3{
+    position: relative;
+    float: left;
+    right: 25px;
+  }
+
+  .insideimg3{
+    width:100%;
+    height: 100%;
+    position: relative;
+    left: 25px;
+  } 
+
+  .portfolio-p4{
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+    height: 30px;
+  }
+
+  .img4{
+    position: relative;
+    float: right;
+    right: 25px;
+  }
+
+  .insideimg4{
+    width:100%;
+    height: 100%;
+    position: relative;
+    left: 25px;
+  } 
+
+  .portfolio-p5{
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+    height: 30px;
+
+  .img5{
+    position: relative;
+    float: left;
+    right: 25px;
+  }
+
+  .insideimg5{
+    width:100%;
+    height: 100%;
+    position: relative;
+    left: 25px;
+  } 
+}
+
+/*
+================================================
+================================================
+
+           End of 980px.
+
+================================================
+================================================
+
+***    ***    ***              ***    ***    ***
+
+================================================
+================================================
+
+           Start of 768px.
+
+================================================
+================================================
+*/
+
+
+@media screen and (max-width: 768px){
+  .navBar, .border-navBar, .main-section, .footerBar{
+    width: 100%;
+  }
+
+  .containerHeader, .container, .copyright{
+    width: 95%;
+    margin: auto;
+  }
+
+  .aboutMeBox{
+    width: 95%;
+  }
+
+  .aboutMeBox p {
+    line-height: 200%;
+  }
+
+  .profile-image{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+
+  .connectBox{
+    width: 95%;
+    float: left;
+    margin-top: 50px;
+  }
+
+  .connectWithMe{
+    float:left;
+    width:100%;
+    text-align: left;
+  }
+
+  .gitDiv, .linkedinDiv, .stackoverflowDiv{
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+  .social{
+    padding-left: 0;
+  }
+
+/*
+================================================
+    Portfolio adjustments for 786px.
+================================================
+*/
+  .portfolio-box{
+    width:95%;
+  }
+
+  .insideimg1{
+    width: 47%;
+    height: 150px;
+    float:left;
+    position: relative;
+  }
+
+  .insideimg2{
+    width: 47%;
+    height: 150px;
+    top: -30px;
+    float: right;
+    position: relative;
+  }
+
+  .insideimg3{
+    width: 47%;
+    height: 150px;
+    margin-top: 125px;
+    float:left;
+    position: relative;
+  }
+
+  .insideimg4{
+    width: 47%;
+    height: 150px;
+    margin-top: 85px;
+    float:right;
+    position: relative;
+  }
+
+  .insideimg5{
+    width: 47%;
+    height: 150px;
+    margin-top: 125px;
+    float:left;
+    position: relative;
+  }
+
+/*
+================================================
+  Content tags within the portoflio images.
+================================================
+*/
+
+}
+
+@media screen and (max-width: 640px){
+  .border-navBar, .footerBar{
+    width: 100%;
+  }
+
+  .containerHeader{
+    width: 100%;
+
+
+  }
+
+  .main-section{
+    float:left;
+    width: 100%;
+  }
+  .aboutMeBox {
+    width: 100%;
+  }
+
+  .aboutMeBox p {
+    line-height: 200%;
+  }
+
+  .navBar{
+    width: 100%;
+    height: 80%;
+    background: black;
+    padding: 0;
+    margin: 0;
+  } 
+  .name{
+    width: 100%;
+    text-align: center;
+    position: static;
+  }
+
+  .about-tab{
+    width: 27%;
+    background: white;
+    text-align: center;
+    float:right;
+    position: static;
+  }
+  .contact-tab{
+    width: 27%;
+    background: white;
+    text-align: center;
+    float:right;
+    position: static;
+  }
+
+  .portfolio-tab{
+    width: 27%;
+    background: white;
+    text-align: center;
+    float:right;
+    position: static;
+  }
+
+  .border-navBar{
+    width: 100%;
+  }
+
+  .profile-image{
+    width:100%;
+  }
+
+  .gitDiv, .linkedinDiv, .stackoverflowDiv{
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+
+  .social{
+    padding-left: 0;
+  }
+
+
+}
